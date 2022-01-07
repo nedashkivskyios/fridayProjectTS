@@ -1,0 +1,35 @@
+.default {
+    border: 1px solid #009688;
+    width: auto;
+    height: 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #212121;
+    background-color: #009688;
+    margin: 2px;
+}
+
+.default:hover, .default:focus {
+    color: #FFFFFF;
+}
+
+.default:disabled {
+    color: #757575;
+    background-color: #67d0c6;
+}
+
+.errorButton {
+    margin: 2px;
+    border: 1px solid #d74a5c;
+    width: auto;
+    height: 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #212121;
+    background: #d74a5c;
+}
+
+.errorButton:hover, .errorButton:focus {
+    color: #FFFFFF;
+}
+
