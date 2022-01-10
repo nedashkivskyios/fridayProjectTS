@@ -6,6 +6,7 @@ import {RecoverPassword} from "../../c1-auth/a3-RecoverPassword/RecoverPassword"
 import {SetNewPassword} from "../../c1-auth/a4-SetNewPassword/SetNewPassword";
 import {SuperDashboard} from "../SuperDashboard";
 import {Profile} from "../m3-Profile/Profile";
+import Error404 from "../../c7-pages/Error404";
 
 export const MainRouterPATH = {
   Registration: '/registration',
@@ -24,6 +25,7 @@ export const MainRouter = () => {
       <Route path={MainRouterPATH.RecoverPassword} element={<RecoverPassword/>} />
       <Route path={MainRouterPATH.SetNewPassword} element={<SetNewPassword/>} />
       <Route path={MainRouterPATH.Profile} element={<Profile/>} />
+      <Route path="*" element={<Error404/>}/>
     </Routes>
   );
 };

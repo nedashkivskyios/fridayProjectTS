@@ -1,14 +1,22 @@
 import React from 'react'
 
+
+const styles = {
+  margin: "0 auto",
+  width: "600px",
+  height: "300px",
+  color: "#d74a5c",
+  fontSize: "52px",
+  fontWeight: 700
+}
+
+
 function Error404() {
   return (
-    <div>
-      {/*// файл в "../../p1-main/m1-ui/u1-app/c7-pages"*/}
-
-
-      {/*<div>404</div>*/}
-      {/*<div>Page not found!</div>*/}
-      {/*<div>—ฅ/ᐠ.̫ .ᐟ\ฅ—</div>*/}
+    <div style={styles as React.CSSProperties}>
+      <div>404</div>
+      <div>Page not found!</div>
+      <div>—ฅ/ᐠ.̫ .ᐟ\ฅ—</div>
     </div>
   )
 }

@@ -13,6 +13,7 @@ export const Navigation = () => {
       <NavLink to={MainRouterPATH.RecoverPassword}><SuperButton>RecoverPassword</SuperButton></NavLink>
       <NavLink to={MainRouterPATH.SetNewPassword}><SuperButton>SetNewPassword</SuperButton></NavLink>
       <NavLink to={MainRouterPATH.Profile}><SuperButton>Profile</SuperButton></NavLink>
+      <NavLink to={'shcha budet 404'}><SuperButton>Yanki go home</SuperButton></NavLink>
     </div>
   );
 };
